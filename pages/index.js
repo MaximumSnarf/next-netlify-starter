@@ -15,7 +15,7 @@ export default function Home() {
       <main>
         
    
-    <model-viewer src="Rpages/model/Rock_1.glb"> </model-viewer>
+    <model-viewer src="model/Rock_1.glb"> </model-viewer>
 
       </main>
 
