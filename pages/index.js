@@ -16,6 +16,7 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+        <model-viewer src="Rock_1.glb"></model-viewer>
       </main>
 
       <Footer />
