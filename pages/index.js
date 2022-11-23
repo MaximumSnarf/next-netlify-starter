@@ -15,7 +15,7 @@ export default function Home() {
       <main>
         
    
-    <model-viewer src="Rpages/model/Rock_1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="Rpages/model/poster.webp" shadow-intensity="1"> </model-viewer>
+    <model-viewer src="Rpages/model/Rock_1.glb"> </model-viewer>
 
       </main>
 
