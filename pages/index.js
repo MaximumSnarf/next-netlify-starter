@@ -17,6 +17,7 @@ export default function Home() {
           Get started by editing <code>pages/index.js</code>
         </p>
         <model-viewer src="pages/Rock_1.glb"></model-viewer>
+        <img src="Test.jpg">
       </main>
 
       <Footer />
