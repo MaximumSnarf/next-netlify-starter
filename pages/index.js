@@ -7,13 +7,14 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Next.js Starter!</title>
+          <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-    <model-viewer src="Rock_1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1"> </model-viewer>
+   
+    <model-viewer src="Rpages/model/Rock_1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="Rpages/model/poster.webp" shadow-intensity="1"> </model-viewer>
 
       </main>
 
