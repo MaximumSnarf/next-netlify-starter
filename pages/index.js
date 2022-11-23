@@ -6,17 +6,15 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
         <title>Next.js Starter!</title>
-         
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        
-   
-    <model-viewer src="model/Rock_1.glb"> </model-viewer>
-
+        <Header title="Welcome to my app!" />
+        <p className="description">
+          Get started by editing <code>pages/index.js</code>
+        </p>
       </main>
 
       <Footer />
